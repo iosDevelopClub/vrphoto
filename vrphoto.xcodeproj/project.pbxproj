@@ -15,6 +15,7 @@
 		639246361D493F060060BA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639246341D493F060060BA95 /* LaunchScreen.storyboard */; };
 		639246411D493F060060BA95 /* vrphotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639246401D493F060060BA95 /* vrphotoTests.swift */; };
 		6392464C1D493F060060BA95 /* vrphotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392464B1D493F060060BA95 /* vrphotoUITests.swift */; };
+		6392465E1D4CB29E0060BA95 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392465D1D4CB29E0060BA95 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		639246471D493F060060BA95 /* vrphotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vrphotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6392464B1D493F060060BA95 /* vrphotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vrphotoUITests.swift; sourceTree = "<group>"; };
 		6392464D1D493F060060BA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6392465D1D4CB29E0060BA95 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				639246281D493F060060BA95 /* AppDelegate.swift */,
 				6392462A1D493F060060BA95 /* ViewController.swift */,
+				6392465D1D4CB29E0060BA95 /* CollectionViewCell.swift */,
 				6392462C1D493F060060BA95 /* Main.storyboard */,
 				639246321D493F060060BA95 /* Assets.xcassets */,
 				639246341D493F060060BA95 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				6392462B1D493F060060BA95 /* ViewController.swift in Sources */,
 				639246311D493F060060BA95 /* vrphoto.xcdatamodeld in Sources */,
+				6392465E1D4CB29E0060BA95 /* CollectionViewCell.swift in Sources */,
 				639246291D493F060060BA95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +490,7 @@
 				639246521D493F060060BA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639246531D493F060060BA95 /* Build configuration list for PBXNativeTarget "vrphotoTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				639246551D493F060060BA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639246561D493F060060BA95 /* Build configuration list for PBXNativeTarget "vrphotoUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				639246581D493F060060BA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
