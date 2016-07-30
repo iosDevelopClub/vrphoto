@@ -16,6 +16,12 @@
 		639246411D493F060060BA95 /* vrphotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639246401D493F060060BA95 /* vrphotoTests.swift */; };
 		6392464C1D493F060060BA95 /* vrphotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392464B1D493F060060BA95 /* vrphotoUITests.swift */; };
 		6392465E1D4CB29E0060BA95 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392465D1D4CB29E0060BA95 /* CollectionViewCell.swift */; };
+		639246611D4D02DA0060BA95 /* VRphoto58.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246601D4D02DA0060BA95 /* VRphoto58.png */; };
+		639246631D4D03A20060BA95 /* VRphoto87.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246621D4D03A20060BA95 /* VRphoto87.png */; };
+		639246671D4D044E0060BA95 /* VRphoto80.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246641D4D044E0060BA95 /* VRphoto80.png */; };
+		639246681D4D044E0060BA95 /* VRphoto120.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246651D4D044E0060BA95 /* VRphoto120.png */; };
+		639246691D4D044E0060BA95 /* VRphoto180.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246661D4D044E0060BA95 /* VRphoto180.png */; };
+		6392466C1D4D05160060BA95 /* VRphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392466B1D4D05160060BA95 /* VRphoto.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		6392464B1D493F060060BA95 /* vrphotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vrphotoUITests.swift; sourceTree = "<group>"; };
 		6392464D1D493F060060BA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6392465D1D4CB29E0060BA95 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		639246601D4D02DA0060BA95 /* VRphoto58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto58.png; sourceTree = "<group>"; };
+		639246621D4D03A20060BA95 /* VRphoto87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto87.png; sourceTree = "<group>"; };
+		639246641D4D044E0060BA95 /* VRphoto80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto80.png; sourceTree = "<group>"; };
+		639246651D4D044E0060BA95 /* VRphoto120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto120.png; sourceTree = "<group>"; };
+		639246661D4D044E0060BA95 /* VRphoto180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto180.png; sourceTree = "<group>"; };
+		6392466B1D4D05160060BA95 /* VRphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,8 @@
 				6392463F1D493F060060BA95 /* vrphotoTests */,
 				6392464A1D493F060060BA95 /* vrphotoUITests */,
 				639246261D493F060060BA95 /* Products */,
+				6392466A1D4D04F00060BA95 /* Image */,
+				6392465F1D4D01960060BA95 /* Icon */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +143,28 @@
 				6392464D1D493F060060BA95 /* Info.plist */,
 			);
 			path = vrphotoUITests;
+			sourceTree = "<group>";
+		};
+		6392465F1D4D01960060BA95 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				639246601D4D02DA0060BA95 /* VRphoto58.png */,
+				639246641D4D044E0060BA95 /* VRphoto80.png */,
+				639246621D4D03A20060BA95 /* VRphoto87.png */,
+				639246651D4D044E0060BA95 /* VRphoto120.png */,
+				639246661D4D044E0060BA95 /* VRphoto180.png */,
+			);
+			name = Icon;
+			path = vrphoto;
+			sourceTree = "<group>";
+		};
+		6392466A1D4D04F00060BA95 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6392466B1D4D05160060BA95 /* VRphoto.png */,
+			);
+			name = Image;
+			path = vrphoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +273,13 @@
 			files = (
 				639246361D493F060060BA95 /* LaunchScreen.storyboard in Resources */,
 				639246331D493F060060BA95 /* Assets.xcassets in Resources */,
+				639246671D4D044E0060BA95 /* VRphoto80.png in Resources */,
 				6392462E1D493F060060BA95 /* Main.storyboard in Resources */,
+				639246691D4D044E0060BA95 /* VRphoto180.png in Resources */,
+				6392466C1D4D05160060BA95 /* VRphoto.png in Resources */,
+				639246631D4D03A20060BA95 /* VRphoto87.png in Resources */,
+				639246681D4D044E0060BA95 /* VRphoto120.png in Resources */,
+				639246611D4D02DA0060BA95 /* VRphoto58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
