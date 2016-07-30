@@ -18,7 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        sleep(5)
+        
+        sleep(5) // замораживаем экран преветственный экран на 5 секунд
+        
         return true
     }
 

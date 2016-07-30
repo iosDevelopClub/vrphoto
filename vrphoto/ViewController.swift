@@ -23,22 +23,22 @@ class ViewController: UICollectionViewController {
     }
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 100
+        return 100 // возвращаем количество ячеек
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! CollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! CollectionViewCell // выводим управление ячейкой в отдельный класс
         
-        cell.label.text = String(indexPath.row)
-        cell.backgroundColor = UIColor.lightGrayColor()
+        cell.label.text = String(indexPath.row) // текст в ячейках
+        cell.backgroundColor = UIColor.lightGrayColor() // цвет ячеек
         
         return cell
      }
     
     func collectionView(collectionView:UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
     
-        let size = CGSize(width: 80, height: 80)
+        let size = CGSize(width: 80, height: 80) // задаем размеры ячейки
         return size
     
     }
