@@ -22,21 +22,21 @@ class ViewController: UICollectionViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 100 // возвращаем количество ячеек
     }
 
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! CollectionViewCell // выводим управление ячейкой в отдельный класс
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell // выводим управление ячейкой в отдельный класс
         
-        cell.label.text = String(indexPath.row) // текст в ячейках
-        cell.backgroundColor = UIColor.lightGrayColor() // цвет ячеек
+        cell.label.text = String((indexPath as NSIndexPath).row) // текст в ячейках
+        cell.backgroundColor = UIColor.lightGray // цвет ячеек
         
         return cell
      }
     
-    func collectionView(collectionView:UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+    func collectionView(_ collectionView:UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize {
     
         let size = CGSize(width: 80, height: 80) // задаем размеры ячейки
         return size
